@@ -75,7 +75,7 @@ ul li a:hover {
 /*Setting the background image using before pseudo selector*/
 #container1::before {
     content: '';
-    background: url("./1.jpg") no-repeat center center/cover;
+    background: url('Photos/1.webp') no-repeat center center/cover;
     width: 100vw;
     height: 59vh;
     position: absolute;
@@ -135,7 +135,7 @@ ul li a:hover {
  
 #row2::before {
     content: '';
-    background: url('2.jpeg') no-repeat center center/cover;
+    background: url('Photos/2.webp') no-repeat center center/cover;
     position: absolute;
     top: 0px;
     left: 0px;
@@ -162,7 +162,7 @@ ul li a:hover {
  
 #row3::before {
     content: '';
-    background: url('3.jpeg') no-repeat center center/cover;
+    background: url('Photos/3.jpg') no-repeat center center/cover;
     position: absolute;
     top: 0px;
     left: 0px;
@@ -188,7 +188,7 @@ ul li a:hover {
     width: 29vw;
     height: 360px;
     border: 2px solid black;
-    background: url('a1.jpeg') no-repeat center center/cover;
+    background: url('Photos/a1.webp') no-repeat center center/cover;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -199,7 +199,7 @@ ul li a:hover {
     width: 29vw;
     height: 360px;
     border: 2px solid black;
-    background: url('a2.jpeg') no-repeat center center/cover;
+    background: url('Photos/a2.webp') no-repeat center center/cover;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -210,7 +210,7 @@ ul li a:hover {
     width: 30vw;
     height: 360px;
     border: 2px solid black;
-    background: url('a3.jpeg') no-repeat center center/cover;
+    background: url('Photos/a3.webp') no-repeat center center/cover;
     display: flex;
     justify-content: center;
     align-items: flex-end;
