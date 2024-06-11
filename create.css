@@ -24,3 +24,28 @@
     margin: auto;
     margin-bottom: 3px;
 }
+
+#navbar {
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    height: 14vh;
+    width: 100vw;
+    font-family: 'Ubuntu Mono', monospace;
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+ 
+/*Navbar content functionality*/
+#navcontent {
+    display: flex;
+    justify-content: center;
+}
+ 
+/*Navbar content styling*/
+ul li {
+    list-style: none;
+    margin: 15px;
+    border-radius: 20px;
+}
