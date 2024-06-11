@@ -28,7 +28,7 @@
 #navbar {
     display: flex;
     flex-direction: column;
-    background-color: gray;
+    background-color: rgb(54, 22, 158);
     height: 14vh;
     width: 100vw;
     font-family: 'Ubuntu Mono', monospace;
@@ -218,9 +218,11 @@ ul li a:hover {
 }
  
 /*Designing the footer*/
-footer {
-    text-align: center;
-}
+
+
+   
+    
+
  
 /*Designing of Contact Us*/
 #ContactUs {
