@@ -229,19 +229,29 @@ footer {
  
 /*Designing of Contact Us*/
 #ContactUs {
+
+    
     width: 100vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: gray;
+    background: url('Photos/a4.jpeg') no-repeat center center/cover;
+    color: rgb(222, 226, 230);
+    font-size: 20px;
+    font
+    
 }
  
 .form-shape input,
 .form-shape select,
 .form-shape textarea {
+    
     width: 92%;
     padding: 0.5rem;
+    border-radius: 10px;
+    background-color: rgb(230, 229, 229);
 }
  
 /*Changing the color of placeholder*/
